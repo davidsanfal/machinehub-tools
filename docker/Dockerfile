@@ -12,7 +12,8 @@ RUN apt-get update -y && \
 	apt-get install -y python-dev \
 	wget \
 	git \
-	build-essential
+	build-essential \
+	freecad
 
 RUN wget https://raw.github.com/pypa/pip/master/contrib/get-pip.py
 RUN python get-pip.py
