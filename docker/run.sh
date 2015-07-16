@@ -1,0 +1,1 @@
+docker run -d --net=host --privileged=true -p 80:80 --name machinehub machinehub /bin/sh -c "sudo python launcher.py"
